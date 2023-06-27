@@ -12,7 +12,9 @@
  */
 
 // Your code goes here...
-
+const getDiffTwentySeven(num) {
+  
+}
 
 
 
