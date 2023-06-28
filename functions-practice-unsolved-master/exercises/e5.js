@@ -12,7 +12,7 @@
  */
 
 // Your code goes here...
-function difference(n) {
+function getDiffTwentySeven(n) {
     if (n < 27) {
         return 27 - n;
     } else {
