@@ -13,10 +13,11 @@
 
 // Your code goes here...
 function difference(n) {
-    if (n < 27)
+    if (n < 27) {
         return 27 - n;
-    else
+    } else {
         return (n - 27) * 2;
+    }
  }
 
 
@@ -54,7 +55,9 @@ function isOneofThemOrTheirSumIsFourty(num1, num2) {
   let sum = num1 + num2; 
   if (num1 == 40 || num2 == 40 || sum == 40) {
     return true; 
-  } else return false; 
+  } else{
+     return false; 
+  }
 }
 
 
