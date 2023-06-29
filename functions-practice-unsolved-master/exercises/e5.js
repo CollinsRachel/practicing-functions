@@ -35,7 +35,7 @@ function sumOfTwoIntegers(num1, num2) {
   if(num1 != num2) {
     return num1 + num2; 
   } else {
-    return num1 ^ 3; 
+    return (num1 + num2)* 3; 
   }
 }
 
@@ -51,7 +51,7 @@ function sumOfTwoIntegers(num1, num2) {
 
 // Your code goes here...
 
-function isOneofThemOrTheirSumIsFourty(num1, num2) {
+function isOneOfThemOrTheirSumIsFourty(num1, num2) {
   let sum = num1 + num2; 
   if (num1 == 40 || num2 == 40 || sum == 40) {
     return true; 
